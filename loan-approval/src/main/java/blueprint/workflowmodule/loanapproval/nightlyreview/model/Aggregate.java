@@ -1,4 +1,4 @@
-package blueprint.workflowmodule.nightlyreview.model;
+package blueprint.workflowmodule.loanapproval.nightlyreview.model;
 
 import io.vanillabp.spi.service.NoSyncWithBPMS;
 import jakarta.persistence.Column;

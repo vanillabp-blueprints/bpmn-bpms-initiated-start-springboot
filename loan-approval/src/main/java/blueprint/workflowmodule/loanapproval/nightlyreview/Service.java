@@ -1,4 +1,4 @@
-package blueprint.workflowmodule.nightlyreview;
+package blueprint.workflowmodule.loanapproval.nightlyreview;
 
 import java.util.List;
 import java.util.Optional;
@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
 import blueprint.workflowmodule.loanapproval.model.AggregateRepository;
-import blueprint.workflowmodule.nightlyreview.model.Aggregate;
+import blueprint.workflowmodule.loanapproval.nightlyreview.model.Aggregate;
 import io.vanillabp.spi.service.BpmsStartTrigger;
 import lombok.extern.slf4j.Slf4j;
 
@@ -34,7 +34,7 @@ import lombok.extern.slf4j.Slf4j;
 public class Service {
 
   @Autowired
-  private blueprint.workflowmodule.nightlyreview.model.AggregateRepository reviews;
+  private blueprint.workflowmodule.loanapproval.nightlyreview.model.AggregateRepository reviews;
 
   @Autowired
   private AggregateRepository loanApprovals;

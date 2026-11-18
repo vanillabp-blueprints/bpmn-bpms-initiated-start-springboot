@@ -1,11 +1,11 @@
-package blueprint.workflowmodule.nightlyreview;
+package blueprint.workflowmodule.loanapproval.nightlyreview;
 
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 
-import blueprint.workflowmodule.nightlyreview.api.NightlyReviewApi;
+import blueprint.workflowmodule.loanapproval.nightlyreview.api.NightlyReviewApi;
 import lombok.extern.slf4j.Slf4j;
 
 /**

@@ -1,4 +1,4 @@
-package blueprint.workflowmodule.nightlyreview.model;
+package blueprint.workflowmodule.loanapproval.nightlyreview.model;
 
 import java.util.List;
 

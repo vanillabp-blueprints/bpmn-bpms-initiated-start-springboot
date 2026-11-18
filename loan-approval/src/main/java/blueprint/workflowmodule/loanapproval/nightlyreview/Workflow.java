@@ -1,10 +1,10 @@
-package blueprint.workflowmodule.nightlyreview;
+package blueprint.workflowmodule.loanapproval.nightlyreview;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
-import blueprint.workflowmodule.nightlyreview.model.Aggregate;
+import blueprint.workflowmodule.loanapproval.nightlyreview.model.Aggregate;
 import io.vanillabp.spi.process.ProcessService;
 
 /**
